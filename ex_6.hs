@@ -1,0 +1,4 @@
+-- Escreva o del_rep, que recebe uma lista e deleta repetidos desta lista.
+-- Exemplo de entrada do "del_rep".
+-- del_rep [ 3 , 1 , 2 , 1 , 2 , 3 ]
+-- >[3 ,1 ,2]

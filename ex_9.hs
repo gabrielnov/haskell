@@ -1,0 +1,5 @@
+-- Exercício 09
+-- Escreva o delk, que recebe uma lista e um natural k e deleta um a cada k elementos da lista.
+-- Exemplo de entrada do "delk".
+-- delk 3 "anonimamentes"
+-- >"anniamnts"

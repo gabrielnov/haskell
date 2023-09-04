@@ -1,0 +1,4 @@
+-- Escreva o totk, que recebe uma lista e um natural k e totaliza a lista de k em k elementos.
+-- Exemplo de entrada do "totk".
+-- totk 5 [ 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 ]
+-- >[5 ,5 ,2]
