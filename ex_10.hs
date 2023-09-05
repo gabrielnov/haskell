@@ -1,2 +1,0 @@
--- Aplique o sucessor S ao número 3, ou seja, S3, onde S = λwyx.y(wyx) e 3 = λsz.s(s(s(z))).
--- Mostre todo o processo.
