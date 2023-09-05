@@ -6,7 +6,9 @@
 
 tot3 :: (Num x, Eq x) => [x] -> [x]
 tot3 [] = []
+tot3 x = soma x []
 
-soma :: (Num x, Eq x) => [x] -> x -> x
-soma [] _ = 0
-soma (x:xs) a = x + soma xs (a+1)
+soma :: (Num x, Eq x) => [x] -> [x] -> [x]
+soma x _ | length x <= 3 = [sum x]
+soma x y = y ++ soma (take 3 x) y ++ soma (drop 3 x) y
+
