@@ -4,3 +4,5 @@
 -- penult "abcdefgh "
 -- >'g'
 
+penult :: [x] -> x
+penult x = last (init x) 
