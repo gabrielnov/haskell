@@ -4,11 +4,11 @@
 -- tot3 [ 1 , 1 , 1 , 2 , 2 , 2 , 3 , 3 , 3 , 4 ]
 -- >[ 3 , 6 , 9 , 4 ]
 
-tot3 :: (Num x, Eq x) => [x] -> [x]
+tot3 :: (Num x) => [x] -> [x]
 tot3 [] = []
 tot3 x = soma x []
 
-soma :: (Num x, Eq x) => [x] -> [x] -> [x]
+soma :: (Num x) => [x] -> [x] -> [x]
 soma x _ | length x <= 3 = [sum x]
 soma x y = y ++ soma (take 3 x) y ++ soma (drop 3 x) y
 
